@@ -19,5 +19,7 @@ public class Main {
             System.out.println("very good");
             grade = 100;
         }
+        
+        System.out.println("Grade: " + grade);
     }
 }
