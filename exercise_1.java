@@ -13,14 +13,14 @@ public class Main {
         int b = scanner.nextInt();
         System.out.println("a*b = "+ a*b);
         System.out.println("Please enter double numbers c:");
-        double c = scanner.nextInt();
+        double c = scanner.nextDouble();
         System.out.println("Please enter double numbers d:");
-        double d = scanner.nextInt();
+        double d = scanner.nextDouble();
         System.out.println("c/d = "+ c/d);
         System.out.println("Please enter long numbers e:");
-        long e = scanner.nextInt();
+        long e = scanner.nextLong();
         System.out.println("Please enter long numbers f:");
-        long f = scanner.nextInt();
+        long f = scanner.nextLong();
         System.out.print("a + b * c - d + (e * f) = " );
         double rez = a + b * c - d + (e * f);
         System.out.println(rez);
